@@ -12,13 +12,12 @@ SimpleTimeService is a minimalist microservice that returns the current timestam
 ---
 
 ## Project Structure
-.
-├── 📂 .github
-│   └── workflows # GitHub Actions CI/CD pipeline
-├── 📂 app
-│   └── # Application source code and Dockerfile
-└── 📂 terraform
-    └── # Terraform configuration files
+
+├── 📂 .github/workflows  # GitHub Actions CI/CD pipeline
+│ 
+├── 📂 app # Application source code and Dockerfile
+│  
+└── 📂 terraform # Terraform configuration files
 
 
 
@@ -132,9 +131,7 @@ http://<alb-dns-name>
   "ip": "192.168.1.1"
 }
 ```
-*** Practically Tested Outputs Screenshot ***
 
-![Application Output](./devops-challenge-senior.png){ width=600 }
 
 ------------------------------------------------------------------
 ## Extra Credits
@@ -161,6 +158,8 @@ Push changes to the main branch to trigger the pipeline.
 * DockerHUb Image: [tanveer143/simple-time-service:latest](https://hub.docker.com/repository/docker/tanveer143/simple-time-service/general)
 
 
+*** Practically Tested Outputs Screenshot ***
 
+![Application Output](./devops-challenge-senior.png)
 
 
