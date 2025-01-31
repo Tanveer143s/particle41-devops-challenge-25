@@ -50,7 +50,9 @@ docker build -t simple-time-service ./app
 docker run -p 8080:8080 simple-time-service
 ```
 ### Access the service at
+```sh
 [ http://localhost:8080 ]
+```
 
 ### Expected JSON response:
 
@@ -140,7 +142,7 @@ http://<alb-dns-name>
 
 - Prerequisites
  1. Add the following secrets to your GitHub repository's secrets:
- 2. OCKERHUB_USERNAME: Your Docker Hub username.
+ 2. DOCKERHUB_USERNAME: Your Docker Hub username.
  3. DOCKERHUB_TOKEN: Your Docker Hub access token.
  4. WS_ACCESS_KEY_ID: Your AWS access key.
  5. AWS_SECRET_ACCESS_KEY: Your AWS secret key.
@@ -150,7 +152,9 @@ Push changes to the main branch to trigger the pipeline.
 
 ## Repository URL: 
   
+* Source-Code: https://github.com/Tanveer143s/particle41-devops-challenge-25/tree/main
 
+* DockerHUb Image: [tanveer143/simple-time-service:latest](https://hub.docker.com/repository/docker/tanveer143/simple-time-service/general)
 
 
 
