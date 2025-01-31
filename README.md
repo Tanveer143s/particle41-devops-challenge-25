@@ -14,10 +14,10 @@ SimpleTimeService is a minimalist microservice that returns the current timestam
 ## Project Structure
 
 ├── 📂 .github/workflows  # GitHub Actions CI/CD pipeline
-│ 
+
 ├── 📂 app # Application source code and Dockerfile
-│  
-└── 📂 terraform # Terraform configuration files
+
+├── 📂 terraform # Terraform configuration files
 
 
 
@@ -158,7 +158,7 @@ Push changes to the main branch to trigger the pipeline.
 * DockerHUb Image: [tanveer143/simple-time-service:latest](https://hub.docker.com/repository/docker/tanveer143/simple-time-service/general)
 
 
-*** Practically Tested Outputs Screenshot ***
+#### *** Practically Tested Outputs Screenshot ***
 
 ![Application Output](./devops-challenge-senior.png)
 
