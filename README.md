@@ -12,11 +12,10 @@ SimpleTimeService is a minimalist microservice that returns the current timestam
 ---
 
 ## Project Structure
-.
-├── .github/workflows # GitHub Actions CI/CD pipeline
-├── app        # Application source code and Dockerfile
-└── terraform  # Terraform configuration files
-
+📂 ./
+├── 📂 .github/workflows # GitHub Actions CI/CD pipeline
+├── 📂 app # Application source code and Dockerfile
+└── 📂 terraform # Terraform configuration files
 
 
 ## Prerequisites
@@ -34,9 +33,9 @@ Before you begin, ensure you have the following installed:
 
   Docker Hub credentials configured locally:
 
-```sh
-docker login
-```
+  ```sh
+    docker login
+  ```
 
 ## Task 1: SimpleTimeService Application
 
@@ -132,7 +131,7 @@ http://<alb-dns-name>
 *** Practically Tested Outputs Screenshot ***
 ![Application Output](./devops-challenge-senior.png)
 
-
+------------------------------------------------------------------
 ## Extra Credits
 
 ### CI/CD Pipeline (GitHub Actions)
@@ -150,7 +149,7 @@ http://<alb-dns-name>
 Trigger the Pipeline
 Push changes to the main branch to trigger the pipeline.
 
-## Repository URL: 
+## **Repository URL**: 
   
 * Source-Code: https://github.com/Tanveer143s/particle41-devops-challenge-25/tree/main
 
