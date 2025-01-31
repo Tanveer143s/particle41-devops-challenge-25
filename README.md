@@ -12,10 +12,10 @@ SimpleTimeService is a minimalist microservice that returns the current timestam
 ---
 
 ## Project Structure
-📂 ./
-├── 📂 .github/workflows # GitHub Actions CI/CD pipeline
-├── 📂 app # Application source code and Dockerfile
-└── 📂 terraform # Terraform configuration files
+📂 
+├── 📂 .github/workflows   # GitHub Actions CI/CD pipeline
+├── 📂 app   # Application source code and Dockerfile
+└── 📂 terraform   # Terraform configuration files
 
 
 ## Prerequisites
@@ -129,7 +129,8 @@ http://<alb-dns-name>
 }
 ```
 *** Practically Tested Outputs Screenshot ***
-![Application Output](./devops-challenge-senior.png)
+
+![Application Output](./devops-challenge-senior.png){ width=600 }
 
 ------------------------------------------------------------------
 ## Extra Credits
